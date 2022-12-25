@@ -1,0 +1,102 @@
+/*
+width: 19rem;
+height: 45rem; important to make suitable for mobile
+250
+19 Rems = 304 Pixels
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height:auto;
+  overflow: scroll;
+  font-family: 'Trebuchet MS';
+
+  }
+body{
+  width: 19rem;
+  height:45rem;
+  padding: 1rem;
+  gap:1rem;
+  display:grid;
+  grid-template: 2fr 2fr/auto;
+  grid-template-areas:
+  "top"
+  "bottom";
+  background-color: hsl(131, 31%, 65%);
+}
+main{
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  border: 4px dashed black;
+  padding: 0.2rem;
+  background-color: hsl(131, 31%, 65%);
+}
+h1{
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 2px dashed black;
+  background-color: white;
+  color: green;
+  margin: 0 2rem;
+}
+article{
+  border: 2px dashed black;
+  font-size: 0.8rem;
+  margin: 0 1rem;
+  background-color: rgb(242, 227, 227);
+  color: indigo;
+  font-weight: bold;
+  text-align: center;
+}
+button{
+  padding: 0.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid burlywood;
+  border-radius: 25px;
+}
+h2{
+  font-size: 0.8rem;
+  border: 2px dashed black;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: white;
+  color: green;
+  margin: 0 2rem;
+}
+aside{
+  border: 2px dashed black;
+  margin: 0 1rem;
+  font-size: 0.8rem;
+  background-color: rgb(242, 227, 227);
+  color: indigo;
+  font-weight: bold;
+  text-align: center;
+}
+h3{
+  font-size: 0.6rem;
+  border: 1px dashed black;
+}
+section{
+  grid-area: bottom;
+  background-image: url(./images/obip0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 5px solid rgb(203, 241, 138);
+  width: 200px;
+  height:266px;
+  margin: 0 auto;
+}
