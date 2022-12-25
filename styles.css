@@ -8,6 +8,7 @@ height: 45rem; important to make suitable for mobile
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  utline: 1px solid black;
 }
 html{
   display: flex;
@@ -60,6 +61,20 @@ article{
   color: indigo;
   font-weight: bold;
   text-align: center;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  background-image: url(./images/pointing.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  width: 5rem;
+  height:5rem;
+  background-position: right;
 }
 button{
   padding: 0.5rem;
