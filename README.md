@@ -28,8 +28,8 @@ The objective of this JavaScript AJAX project is to use the Chuck Norris API to 
 
 ### Links
 
-- Solution URL: [https://github.com/traez/budgeting-app-javascript-oop-localstorage-project](https://github.com/traez/budgeting-app-javascript-oop-localstorage-project)
-- Live Site URL: [https://traez.github.io/budgeting-app-javascript-oop-localstorage-project/](https://traez.github.io/budgeting-app-javascript-oop-localstorage-project/)
+- Solution URL: [https://github.com/traez/random-reasons-oop-javascript-project](https://github.com/traez/random-reasons-oop-javascript-project)
+- Live Site URL: [https://traez.github.io/random-reasons-oop-javascript-project/](https://traez.github.io/random-reasons-oop-javascript-project/)
 
 ## My process
 
