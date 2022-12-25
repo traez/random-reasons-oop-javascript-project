@@ -65,7 +65,7 @@ Should have used APIs, next to study
           let j = array[Math.floor(Math.random()*array.length)].obir;
           let k = array[Math.floor(Math.random()*array.length)].odasr;
           body.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-          poster.style.backgroundImage = `url(/images/obip${i}.jpg)`;
+          poster.style.backgroundImage = `url(./images/obip${i}.jpg)`;
           obi.textContent = j;
           odas.textContent = k;
         })
